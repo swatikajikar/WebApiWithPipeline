@@ -1,0 +1,60 @@
+pipeline {
+    agent any
+
+    environment {
+        DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
+    }
+
+    stages {
+
+        stage('Checkout SCM') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Checkout') {
+            steps {
+                echo 'Source code checked out successfully'
+            }
+        }
+
+        stage('Restore') {
+            steps {
+                bat 'dotnet restore'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'dotnet build --configuration Release'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'dotnet test --configuration Release --no-build'
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                bat 'dotnet publish --configuration Release --output publish'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build, Test and Publish stages completed successfully.'
+        }
+
+        failure {
+            echo 'Pipeline failed.'
+        }
+
+        always {
+            echo 'Pipeline execution completed.'
+        }
+    }
+}

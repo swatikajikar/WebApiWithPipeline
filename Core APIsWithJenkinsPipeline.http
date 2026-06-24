@@ -1,0 +1,6 @@
+@Core_APIsWithJenkinsPipeline_HostAddress = http://localhost:5077
+
+GET {{Core_APIsWithJenkinsPipeline_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

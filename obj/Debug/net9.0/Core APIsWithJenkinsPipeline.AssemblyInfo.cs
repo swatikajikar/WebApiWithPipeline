@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Core APIsWithJenkinsPipeline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82431bc49d08eb31315216b4a753d8b5f1e688dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13f7a0095c0f093eb897013a00670a5c0c98abc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Core APIsWithJenkinsPipeline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Core APIsWithJenkinsPipeline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,8 +38,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-24T10:26:54.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:26:54.207Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Controllers\\StateApiController.cs",
               "ToolTip": "D:\\GitPractice\\hello-world\\Core APIsWithJenkinsPipeline\\Controllers\\StateApiController.cs",
               "RelativeToolTip": "Controllers\\StateApiController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T10:17:30.93Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Models\\State.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:15:27.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T10:15:27.106Z"
             }
           ]
         }
